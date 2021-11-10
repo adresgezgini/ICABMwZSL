@@ -1,5 +1,5 @@
 # makale
-ZEROSHOTSIZ
+ZEROSHOTLI
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
 |-------|------------|------------|------------|------------|------------|
 |  0	|   1,00     |   1,00     |   1,00     |   1,00     |   75       |
