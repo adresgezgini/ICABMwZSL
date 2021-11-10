@@ -104,4 +104,4 @@ ZEROSHOTSIZ
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
-![Zero Shotsız BERT CONFİSİON](https://github.com/adresgezgini/makale/blob/main/resource/Conf_only_BERT_44class.png)
+!['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Conf_only_BERT_44class.png)
