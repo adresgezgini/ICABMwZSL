@@ -50,6 +50,7 @@ ZEROSHOTLI
 |   	|   0,98     |   0,98     |   0,98     |   0,98     |  3897      |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
+!['Zero Shotlu BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Conf_zero_shot_44class.png)
 
 
 ZEROSHOTSIZ
