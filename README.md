@@ -50,7 +50,7 @@ ZEROSHOTLI
 |   	|   0,98     |   0,98     |   0,98     |   0,98     |  3897      |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
-!['Zero Shotlu BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Conf_zero_shot_44class.png)
+!['Zero Shotlu BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Zero%2BBERT_CONF.png)
 
 
 ZEROSHOTSIZ
@@ -105,4 +105,4 @@ ZEROSHOTSIZ
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
-!['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Conf_only_BERT_44class.png)
+!['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Just_BERT_CONF.png)
