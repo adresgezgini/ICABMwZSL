@@ -123,6 +123,7 @@ Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategoriler
 
 <div align="center">
 Sıfır-Atış Öğrenmesi Yöntemi ile Aykırı Verilerden Arındırılmış Veri Seti İle Eğitilen BERT Modeli ile Elde Edilen Kategorilere göre Sınıflandırma Hata Dizeyi
+  
 !['Zero Shotlu BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Zero%2BBERT_CONF.png)
 </div>
 
