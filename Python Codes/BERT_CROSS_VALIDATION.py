@@ -1,5 +1,5 @@
 from simpletransformers.classification import ClassificationModel
-from sklearn.model_selection import KFold
+from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import re
@@ -112,7 +112,7 @@ for item in list_url:
 
   # prepare cross validation
   n=5
-  kf = KFold(n_splits=n, random_state=42, shuffle=True)
+  kf = StratifiedKFold(n_splits=n, random_state=42, shuffle=True)
 
   no_labels = len(set(data["label"]))
   results = []
