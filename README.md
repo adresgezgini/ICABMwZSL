@@ -1,8 +1,6 @@
 # makale
 Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
 
-<center>
-  
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
 |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
 |  41	|   0,94     |   0,93     |   0,94     |   0,93	    |   363      |
@@ -53,7 +51,6 @@
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
  
-</center>
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
 !['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Just_BERT_CONF.png)
 
