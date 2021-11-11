@@ -57,7 +57,7 @@ Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategoriler
 
 Çizelge-5: Sıfır-Atış Öğrenmesi Yöntemi ile Aykırı Verilerden Arındırılmış Veri Seti İle Eğitilen BERT Modeli ile Elde Edilen Kategorilere göre Sınıflandırma Doğruluk Çizelgesi
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
-|-------|------------|------------|------------|------------|------------|
+|  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
 |  0	|   1,00     |   1,00     |   1,00     |   1,00     |   75       |
 |  2	|   0,99     |   1,00     |   1,00     |   1,00     |   100      |
 |  4	|   1,00     |   1,00     |   1,00     |   1,00     |   133      |
