@@ -4,6 +4,10 @@
 
 </div>
 
+
+  Türkiye Bilişim Vakfı Bilgisayar Bilimleri ve Mühendisliği Dergisi 1004781 no'lu BERT Modeli'nin Sınıflandırma Doğruluğunun Sıfır-Atış Öğrenmesi ile Artırılması isimli makalede kullanılan kaynakların genişletilmiş hali ve hata dizeyleri aşağıdaki gibidir. Bahsedilen analizler sırasında kullanılan kodlar açık kaynaklı olarak Python Codes klasörüne eklenmiştir. 
+
+
 <div align="center">
 
 Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
