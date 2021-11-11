@@ -50,8 +50,9 @@
 |  38	|   0,79     |   0,62     |   0,70     |   0,62	    |   306      |
 |     |            |            |            |            |            |
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
-|   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
-]
+|   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |]
+
+
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
 !['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Just_BERT_CONF.png)
 
