@@ -1,7 +1,7 @@
 # makale
-Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
+<div align="center">
 
-.center[
+Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
 
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
 |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
@@ -53,14 +53,19 @@
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
-]
 
 
+
+  
+  
+  
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
+  
 !['Zero Shotsız BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Just_BERT_CONF.png)
 
 
 Çizelge-5: Sıfır-Atış Öğrenmesi Yöntemi ile Aykırı Verilerden Arındırılmış Veri Seti İle Eğitilen BERT Modeli ile Elde Edilen Kategorilere göre Sınıflandırma Doğruluk Çizelgesi
+  
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
 |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
 |  0	|   1,00     |   1,00     |   1,00     |   1,00     |   75       |
@@ -112,5 +117,7 @@ Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategoriler
 |   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
 
 Sıfır-Atış Öğrenmesi Yöntemi ile Aykırı Verilerden Arındırılmış Veri Seti İle Eğitilen BERT Modeli ile Elde Edilen Kategorilere göre Sınıflandırma Hata Dizeyi
+  
 !['Zero Shotlu BERT CONFİSİON'](https://github.com/adresgezgini/makale/blob/main/resource/Zero%2BBERT_CONF.png)
+</div>
 
