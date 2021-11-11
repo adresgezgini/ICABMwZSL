@@ -1,7 +1,7 @@
 # makale
 Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
 <p align="center"></p>
-
+<table>
 <thead>
 <tr>
 <th align="center">ID</th>
@@ -390,7 +390,7 @@
 <td align="center">(Toplam)</td>
 </tr>
 </tbody>
- |
+</table> |
 <p></p>
 
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
