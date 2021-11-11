@@ -2,6 +2,7 @@
 Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
 
 .center[
+
 | ID    | Kesinlik   | Duyarlılık | F1-Skoru   | Doğruluk   |  Metin     |
 |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
 |  41	|   0,94     |   0,93     |   0,94     |   0,93	    |   363      |
@@ -50,7 +51,9 @@
 |  38	|   0,79     |   0,62     |   0,70     |   0,62	    |   306      |
 |     |            |            |            |            |            |
 |   	|   0,79     |   0,79     |   0,79     |   0,79     |  20203     |
-|   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |]
+|   	| (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Ağ. Ort)  | (Toplam)   |
+
+]
 
 
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
