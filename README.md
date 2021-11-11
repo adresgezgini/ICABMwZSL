@@ -1,396 +1,397 @@
 # makale
 Çizelge-4: Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıflandırma Doğruluk Değerleri Çizelgesi
+
 <p align="center"></p>
 <table>
-<thead>
-<tr>
-<th align="center">ID</th>
-<th align="center">Kesinlik</th>
-<th align="center">Duyarlılık</th>
-<th align="center">F1-Skoru</th>
-<th align="center">Doğruluk</th>
-<th align="center">Metin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">41</td>
-<td align="center">0,94</td>
-<td align="center">0,93</td>
-<td align="center">0,94</td>
-<td align="center">0,93</td>
-<td align="center">363</td>
-</tr>
-<tr>
-<td align="center">35</td>
-<td align="center">0,89</td>
-<td align="center">0,92</td>
-<td align="center">0,91</td>
-<td align="center">0,92</td>
-<td align="center">424</td>
-</tr>
-<tr>
-<td align="center">31</td>
-<td align="center">0,85</td>
-<td align="center">0,92</td>
-<td align="center">0,88</td>
-<td align="center">0,92</td>
-<td align="center">474</td>
-</tr>
-<tr>
-<td align="center">28</td>
-<td align="center">0,88</td>
-<td align="center">0,91</td>
-<td align="center">0,89</td>
-<td align="center">0,91</td>
-<td align="center">507</td>
-</tr>
-<tr>
-<td align="center">27</td>
-<td align="center">0,85</td>
-<td align="center">0,90</td>
-<td align="center">0,87</td>
-<td align="center">0,90</td>
-<td align="center">694</td>
-</tr>
-<tr>
-<td align="center">39</td>
-<td align="center">0,81</td>
-<td align="center">0,89</td>
-<td align="center">0,84</td>
-<td align="center">0,89</td>
-<td align="center">840</td>
-</tr>
-<tr>
-<td align="center">12</td>
-<td align="center">0,86</td>
-<td align="center">0,88</td>
-<td align="center">0,87</td>
-<td align="center">0,88</td>
-<td align="center">519</td>
-</tr>
-<tr>
-<td align="center">4</td>
-<td align="center">0,92</td>
-<td align="center">0,88</td>
-<td align="center">0,90</td>
-<td align="center">0,88</td>
-<td align="center">353</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="center">0,89</td>
-<td align="center">0,86</td>
-<td align="center">0,88</td>
-<td align="center">0,86</td>
-<td align="center">288</td>
-</tr>
-<tr>
-<td align="center">40</td>
-<td align="center">0,83</td>
-<td align="center">0,86</td>
-<td align="center">0,84</td>
-<td align="center">0,86</td>
-<td align="center">560</td>
-</tr>
-<tr>
-<td align="center">25</td>
-<td align="center">0,90</td>
-<td align="center">0,85</td>
-<td align="center">0,87</td>
-<td align="center">0,85</td>
-<td align="center">378</td>
-</tr>
-<tr>
-<td align="center">24</td>
-<td align="center">0,79</td>
-<td align="center">0,85</td>
-<td align="center">0,82</td>
-<td align="center">0,85</td>
-<td align="center">414</td>
-</tr>
-<tr>
-<td align="center">37</td>
-<td align="center">0,80</td>
-<td align="center">0,84</td>
-<td align="center">0,82</td>
-<td align="center">0,84</td>
-<td align="center">1036</td>
-</tr>
-<tr>
-<td align="center">33</td>
-<td align="center">0,89</td>
-<td align="center">0,83</td>
-<td align="center">0,86</td>
-<td align="center">0,83</td>
-<td align="center">423</td>
-</tr>
-<tr>
-<td align="center">8</td>
-<td align="center">0,83</td>
-<td align="center">0,82</td>
-<td align="center">0,82</td>
-<td align="center">0,82</td>
-<td align="center">629</td>
-</tr>
-<tr>
-<td align="center">20</td>
-<td align="center">0,70</td>
-<td align="center">0,82</td>
-<td align="center">0,76</td>
-<td align="center">0,82</td>
-<td align="center">1213</td>
-</tr>
-<tr>
-<td align="center">5</td>
-<td align="center">0,83</td>
-<td align="center">0,82</td>
-<td align="center">0,82</td>
-<td align="center">0,82</td>
-<td align="center">482</td>
-</tr>
-<tr>
-<td align="center">22</td>
-<td align="center">0,88</td>
-<td align="center">0,82</td>
-<td align="center">0,85</td>
-<td align="center">0,82</td>
-<td align="center">432</td>
-</tr>
-<tr>
-<td align="center">19</td>
-<td align="center">0,80</td>
-<td align="center">0,81</td>
-<td align="center">0,80</td>
-<td align="center">0,81</td>
-<td align="center">397</td>
-</tr>
-<tr>
-<td align="center">42</td>
-<td align="center">0,80</td>
-<td align="center">0,80</td>
-<td align="center">0,80</td>
-<td align="center">0,80</td>
-<td align="center">225</td>
-</tr>
-<tr>
-<td align="center">18</td>
-<td align="center">0,88</td>
-<td align="center">0,80</td>
-<td align="center">0,84</td>
-<td align="center">0,80</td>
-<td align="center">529</td>
-</tr>
-<tr>
-<td align="center">43</td>
-<td align="center">0,74</td>
-<td align="center">0,77</td>
-<td align="center">0,75</td>
-<td align="center">0,77</td>
-<td align="center">471</td>
-</tr>
-<tr>
-<td align="center">17</td>
-<td align="center">0,76</td>
-<td align="center">0,77</td>
-<td align="center">0,76</td>
-<td align="center">0,77</td>
-<td align="center">406</td>
-</tr>
-<tr>
-<td align="center">1</td>
-<td align="center">0,85</td>
-<td align="center">0,76</td>
-<td align="center">0,80</td>
-<td align="center">0,76</td>
-<td align="center">334</td>
-</tr>
-<tr>
-<td align="center">36</td>
-<td align="center">0,66</td>
-<td align="center">0,76</td>
-<td align="center">0,71</td>
-<td align="center">0,76</td>
-<td align="center">1107</td>
-</tr>
-<tr>
-<td align="center">13</td>
-<td align="center">0,82</td>
-<td align="center">0,75</td>
-<td align="center">0,79</td>
-<td align="center">0,75</td>
-<td align="center">431</td>
-</tr>
-<tr>
-<td align="center">30</td>
-<td align="center">0,80</td>
-<td align="center">0,74</td>
-<td align="center">0,77</td>
-<td align="center">0,74</td>
-<td align="center">203</td>
-</tr>
-<tr>
-<td align="center">21</td>
-<td align="center">0,69</td>
-<td align="center">0,73</td>
-<td align="center">0,71</td>
-<td align="center">0,73</td>
-<td align="center">235</td>
-</tr>
-<tr>
-<td align="center">10</td>
-<td align="center">0,83</td>
-<td align="center">0,72</td>
-<td align="center">0,77</td>
-<td align="center">0,72</td>
-<td align="center">337</td>
-</tr>
-<tr>
-<td align="center">7</td>
-<td align="center">0,79</td>
-<td align="center">0,72</td>
-<td align="center">0,76</td>
-<td align="center">0,72</td>
-<td align="center">296</td>
-</tr>
-<tr>
-<td align="center">6</td>
-<td align="center">0,78</td>
-<td align="center">0,71</td>
-<td align="center">0,75</td>
-<td align="center">0,71</td>
-<td align="center">227</td>
-</tr>
-<tr>
-<td align="center">32</td>
-<td align="center">0,72</td>
-<td align="center">0,71</td>
-<td align="center">0,71</td>
-<td align="center">0,71</td>
-<td align="center">282</td>
-</tr>
-<tr>
-<td align="center">14</td>
-<td align="center">0,78</td>
-<td align="center">0,70</td>
-<td align="center">0,74</td>
-<td align="center">0,70</td>
-<td align="center">600</td>
-</tr>
-<tr>
-<td align="center">26</td>
-<td align="center">0,81</td>
-<td align="center">0,70</td>
-<td align="center">0,75</td>
-<td align="center">0,70</td>
-<td align="center">233</td>
-</tr>
-<tr>
-<td align="center">15</td>
-<td align="center">0,72</td>
-<td align="center">0,70</td>
-<td align="center">0,71</td>
-<td align="center">0,70</td>
-<td align="center">816</td>
-</tr>
-<tr>
-<td align="center">11</td>
-<td align="center">0,67</td>
-<td align="center">0,69</td>
-<td align="center">0,68</td>
-<td align="center">0,69</td>
-<td align="center">252</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="center">0,78</td>
-<td align="center">0,69</td>
-<td align="center">0,73</td>
-<td align="center">0,69</td>
-<td align="center">342</td>
-</tr>
-<tr>
-<td align="center">34</td>
-<td align="center">0,80</td>
-<td align="center">0,68</td>
-<td align="center">0,74</td>
-<td align="center">0,68</td>
-<td align="center">282</td>
-</tr>
-<tr>
-<td align="center">29</td>
-<td align="center">0,79</td>
-<td align="center">0,68</td>
-<td align="center">0,73</td>
-<td align="center">0,68</td>
-<td align="center">442</td>
-</tr>
-<tr>
-<td align="center">9</td>
-<td align="center">0,67</td>
-<td align="center">0,68</td>
-<td align="center">0,67</td>
-<td align="center">0,68</td>
-<td align="center">385</td>
-</tr>
-<tr>
-<td align="center">0</td>
-<td align="center">0,76</td>
-<td align="center">0,67</td>
-<td align="center">0,71</td>
-<td align="center">0,67</td>
-<td align="center">236</td>
-</tr>
-<tr>
-<td align="center">23</td>
-<td align="center">0,71</td>
-<td align="center">0,67</td>
-<td align="center">0,69</td>
-<td align="center">0,67</td>
-<td align="center">338</td>
-</tr>
-<tr>
-<td align="center">16</td>
-<td align="center">0,73</td>
-<td align="center">0,65</td>
-<td align="center">0,69</td>
-<td align="center">0,65</td>
-<td align="center">462</td>
-</tr>
-<tr>
-<td align="center">38</td>
-<td align="center">0,79</td>
-<td align="center">0,62</td>
-<td align="center">0,70</td>
-<td align="center">0,62</td>
-<td align="center">306</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">0,79</td>
-<td align="center">0,79</td>
-<td align="center">0,79</td>
-<td align="center">0,79</td>
-<td align="center">20203</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center">(Ağ. Ort)</td>
-<td align="center">(Ağ. Ort)</td>
-<td align="center">(Ağ. Ort)</td>
-<td align="center">(Ağ. Ort)</td>
-<td align="center">(Toplam)</td>
-</tr>
-</tbody>
-</table> |
+    <thead>
+    <tr>
+    <th align="center">ID</th>
+    <th align="center">Kesinlik</th>
+    <th align="center">Duyarlılık</th>
+    <th align="center">F1-Skoru</th>
+    <th align="center">Doğruluk</th>
+    <th align="center">Metin</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center">41</td>
+    <td align="center">0,94</td>
+    <td align="center">0,93</td>
+    <td align="center">0,94</td>
+    <td align="center">0,93</td>
+    <td align="center">363</td>
+    </tr>
+    <tr>
+    <td align="center">35</td>
+    <td align="center">0,89</td>
+    <td align="center">0,92</td>
+    <td align="center">0,91</td>
+    <td align="center">0,92</td>
+    <td align="center">424</td>
+    </tr>
+    <tr>
+    <td align="center">31</td>
+    <td align="center">0,85</td>
+    <td align="center">0,92</td>
+    <td align="center">0,88</td>
+    <td align="center">0,92</td>
+    <td align="center">474</td>
+    </tr>
+    <tr>
+    <td align="center">28</td>
+    <td align="center">0,88</td>
+    <td align="center">0,91</td>
+    <td align="center">0,89</td>
+    <td align="center">0,91</td>
+    <td align="center">507</td>
+    </tr>
+    <tr>
+    <td align="center">27</td>
+    <td align="center">0,85</td>
+    <td align="center">0,90</td>
+    <td align="center">0,87</td>
+    <td align="center">0,90</td>
+    <td align="center">694</td>
+    </tr>
+    <tr>
+    <td align="center">39</td>
+    <td align="center">0,81</td>
+    <td align="center">0,89</td>
+    <td align="center">0,84</td>
+    <td align="center">0,89</td>
+    <td align="center">840</td>
+    </tr>
+    <tr>
+    <td align="center">12</td>
+    <td align="center">0,86</td>
+    <td align="center">0,88</td>
+    <td align="center">0,87</td>
+    <td align="center">0,88</td>
+    <td align="center">519</td>
+    </tr>
+    <tr>
+    <td align="center">4</td>
+    <td align="center">0,92</td>
+    <td align="center">0,88</td>
+    <td align="center">0,90</td>
+    <td align="center">0,88</td>
+    <td align="center">353</td>
+    </tr>
+    <tr>
+    <td align="center">2</td>
+    <td align="center">0,89</td>
+    <td align="center">0,86</td>
+    <td align="center">0,88</td>
+    <td align="center">0,86</td>
+    <td align="center">288</td>
+    </tr>
+    <tr>
+    <td align="center">40</td>
+    <td align="center">0,83</td>
+    <td align="center">0,86</td>
+    <td align="center">0,84</td>
+    <td align="center">0,86</td>
+    <td align="center">560</td>
+    </tr>
+    <tr>
+    <td align="center">25</td>
+    <td align="center">0,90</td>
+    <td align="center">0,85</td>
+    <td align="center">0,87</td>
+    <td align="center">0,85</td>
+    <td align="center">378</td>
+    </tr>
+    <tr>
+    <td align="center">24</td>
+    <td align="center">0,79</td>
+    <td align="center">0,85</td>
+    <td align="center">0,82</td>
+    <td align="center">0,85</td>
+    <td align="center">414</td>
+    </tr>
+    <tr>
+    <td align="center">37</td>
+    <td align="center">0,80</td>
+    <td align="center">0,84</td>
+    <td align="center">0,82</td>
+    <td align="center">0,84</td>
+    <td align="center">1036</td>
+    </tr>
+    <tr>
+    <td align="center">33</td>
+    <td align="center">0,89</td>
+    <td align="center">0,83</td>
+    <td align="center">0,86</td>
+    <td align="center">0,83</td>
+    <td align="center">423</td>
+    </tr>
+    <tr>
+    <td align="center">8</td>
+    <td align="center">0,83</td>
+    <td align="center">0,82</td>
+    <td align="center">0,82</td>
+    <td align="center">0,82</td>
+    <td align="center">629</td>
+    </tr>
+    <tr>
+    <td align="center">20</td>
+    <td align="center">0,70</td>
+    <td align="center">0,82</td>
+    <td align="center">0,76</td>
+    <td align="center">0,82</td>
+    <td align="center">1213</td>
+    </tr>
+    <tr>
+    <td align="center">5</td>
+    <td align="center">0,83</td>
+    <td align="center">0,82</td>
+    <td align="center">0,82</td>
+    <td align="center">0,82</td>
+    <td align="center">482</td>
+    </tr>
+    <tr>
+    <td align="center">22</td>
+    <td align="center">0,88</td>
+    <td align="center">0,82</td>
+    <td align="center">0,85</td>
+    <td align="center">0,82</td>
+    <td align="center">432</td>
+    </tr>
+    <tr>
+    <td align="center">19</td>
+    <td align="center">0,80</td>
+    <td align="center">0,81</td>
+    <td align="center">0,80</td>
+    <td align="center">0,81</td>
+    <td align="center">397</td>
+    </tr>
+    <tr>
+    <td align="center">42</td>
+    <td align="center">0,80</td>
+    <td align="center">0,80</td>
+    <td align="center">0,80</td>
+    <td align="center">0,80</td>
+    <td align="center">225</td>
+    </tr>
+    <tr>
+    <td align="center">18</td>
+    <td align="center">0,88</td>
+    <td align="center">0,80</td>
+    <td align="center">0,84</td>
+    <td align="center">0,80</td>
+    <td align="center">529</td>
+    </tr>
+    <tr>
+    <td align="center">43</td>
+    <td align="center">0,74</td>
+    <td align="center">0,77</td>
+    <td align="center">0,75</td>
+    <td align="center">0,77</td>
+    <td align="center">471</td>
+    </tr>
+    <tr>
+    <td align="center">17</td>
+    <td align="center">0,76</td>
+    <td align="center">0,77</td>
+    <td align="center">0,76</td>
+    <td align="center">0,77</td>
+    <td align="center">406</td>
+    </tr>
+    <tr>
+    <td align="center">1</td>
+    <td align="center">0,85</td>
+    <td align="center">0,76</td>
+    <td align="center">0,80</td>
+    <td align="center">0,76</td>
+    <td align="center">334</td>
+    </tr>
+    <tr>
+    <td align="center">36</td>
+    <td align="center">0,66</td>
+    <td align="center">0,76</td>
+    <td align="center">0,71</td>
+    <td align="center">0,76</td>
+    <td align="center">1107</td>
+    </tr>
+    <tr>
+    <td align="center">13</td>
+    <td align="center">0,82</td>
+    <td align="center">0,75</td>
+    <td align="center">0,79</td>
+    <td align="center">0,75</td>
+    <td align="center">431</td>
+    </tr>
+    <tr>
+    <td align="center">30</td>
+    <td align="center">0,80</td>
+    <td align="center">0,74</td>
+    <td align="center">0,77</td>
+    <td align="center">0,74</td>
+    <td align="center">203</td>
+    </tr>
+    <tr>
+    <td align="center">21</td>
+    <td align="center">0,69</td>
+    <td align="center">0,73</td>
+    <td align="center">0,71</td>
+    <td align="center">0,73</td>
+    <td align="center">235</td>
+    </tr>
+    <tr>
+    <td align="center">10</td>
+    <td align="center">0,83</td>
+    <td align="center">0,72</td>
+    <td align="center">0,77</td>
+    <td align="center">0,72</td>
+    <td align="center">337</td>
+    </tr>
+    <tr>
+    <td align="center">7</td>
+    <td align="center">0,79</td>
+    <td align="center">0,72</td>
+    <td align="center">0,76</td>
+    <td align="center">0,72</td>
+    <td align="center">296</td>
+    </tr>
+    <tr>
+    <td align="center">6</td>
+    <td align="center">0,78</td>
+    <td align="center">0,71</td>
+    <td align="center">0,75</td>
+    <td align="center">0,71</td>
+    <td align="center">227</td>
+    </tr>
+    <tr>
+    <td align="center">32</td>
+    <td align="center">0,72</td>
+    <td align="center">0,71</td>
+    <td align="center">0,71</td>
+    <td align="center">0,71</td>
+    <td align="center">282</td>
+    </tr>
+    <tr>
+    <td align="center">14</td>
+    <td align="center">0,78</td>
+    <td align="center">0,70</td>
+    <td align="center">0,74</td>
+    <td align="center">0,70</td>
+    <td align="center">600</td>
+    </tr>
+    <tr>
+    <td align="center">26</td>
+    <td align="center">0,81</td>
+    <td align="center">0,70</td>
+    <td align="center">0,75</td>
+    <td align="center">0,70</td>
+    <td align="center">233</td>
+    </tr>
+    <tr>
+    <td align="center">15</td>
+    <td align="center">0,72</td>
+    <td align="center">0,70</td>
+    <td align="center">0,71</td>
+    <td align="center">0,70</td>
+    <td align="center">816</td>
+    </tr>
+    <tr>
+    <td align="center">11</td>
+    <td align="center">0,67</td>
+    <td align="center">0,69</td>
+    <td align="center">0,68</td>
+    <td align="center">0,69</td>
+    <td align="center">252</td>
+    </tr>
+    <tr>
+    <td align="center">3</td>
+    <td align="center">0,78</td>
+    <td align="center">0,69</td>
+    <td align="center">0,73</td>
+    <td align="center">0,69</td>
+    <td align="center">342</td>
+    </tr>
+    <tr>
+    <td align="center">34</td>
+    <td align="center">0,80</td>
+    <td align="center">0,68</td>
+    <td align="center">0,74</td>
+    <td align="center">0,68</td>
+    <td align="center">282</td>
+    </tr>
+    <tr>
+    <td align="center">29</td>
+    <td align="center">0,79</td>
+    <td align="center">0,68</td>
+    <td align="center">0,73</td>
+    <td align="center">0,68</td>
+    <td align="center">442</td>
+    </tr>
+    <tr>
+    <td align="center">9</td>
+    <td align="center">0,67</td>
+    <td align="center">0,68</td>
+    <td align="center">0,67</td>
+    <td align="center">0,68</td>
+    <td align="center">385</td>
+    </tr>
+    <tr>
+    <td align="center">0</td>
+    <td align="center">0,76</td>
+    <td align="center">0,67</td>
+    <td align="center">0,71</td>
+    <td align="center">0,67</td>
+    <td align="center">236</td>
+    </tr>
+    <tr>
+    <td align="center">23</td>
+    <td align="center">0,71</td>
+    <td align="center">0,67</td>
+    <td align="center">0,69</td>
+    <td align="center">0,67</td>
+    <td align="center">338</td>
+    </tr>
+    <tr>
+    <td align="center">16</td>
+    <td align="center">0,73</td>
+    <td align="center">0,65</td>
+    <td align="center">0,69</td>
+    <td align="center">0,65</td>
+    <td align="center">462</td>
+    </tr>
+    <tr>
+    <td align="center">38</td>
+    <td align="center">0,79</td>
+    <td align="center">0,62</td>
+    <td align="center">0,70</td>
+    <td align="center">0,62</td>
+    <td align="center">306</td>
+    </tr>
+    <tr>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    </tr>
+    <tr>
+    <td align="center"></td>
+    <td align="center">0,79</td>
+    <td align="center">0,79</td>
+    <td align="center">0,79</td>
+    <td align="center">0,79</td>
+    <td align="center">20203</td>
+    </tr>
+    <tr>
+    <td align="center"></td>
+    <td align="center">(Ağ. Ort)</td>
+    <td align="center">(Ağ. Ort)</td>
+    <td align="center">(Ağ. Ort)</td>
+    <td align="center">(Ağ. Ort)</td>
+    <td align="center">(Toplam)</td>
+    </tr>
+    </tbody>
+</table>
 <p></p>
 
 Eldeki Veri Seti ile Doğrudan Eğitilen BERT Modeli ile Elde Edilen Kategorilere Göre Sınıfla Hata Dizeyi
