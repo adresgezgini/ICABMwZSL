@@ -108,7 +108,6 @@ for item in list_url:
   data=data.sample(frac=1)
   data = data.reset_index(drop= True)
 
-  train_data = pd.concat([data["metin"],data["label"]], axis = 1)
 
   # prepare cross validation
   n=5
@@ -116,11 +115,15 @@ for item in list_url:
 
   no_labels = len(set(data["label"]))
   results = []
-  for i,(train_index, val_index) in enumerate(kf.split(train_data)):
+  for i,(train_index, val_index) in enumerate(kf.split(data["metin"],data["label"])):
       print('Kesit No: {}'.format(i),file=open("output.txt", "a"))
-    # splitting Dataframe (dataset not included)
-      train_df = train_data.iloc[train_index]
-      val_df = train_data.iloc[val_index]
+      # splitting Dataframe (dataset not included)
+      X_train, X_test = data["metin"][train_index], data["metin"][val_index]
+      y_train, y_test = data["label"][train_index], data["label"][val_index]
+      
+      train_df = pd.concat([X_train,y_train], axis = 1)
+      val_df = pd.concat([X_test,y_test], axis = 1)
+
       # Defining Model
       MODEL_OUTPUT_DIR = 'BERT_{}_44_kategori_{}/'.format(item[1],i,)
 
